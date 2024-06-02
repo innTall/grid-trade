@@ -1,0 +1,1907 @@
+[
+	{
+		"symbol": "1000SATSUSDT",
+		"lastPrice": "0.00028250",
+		"quoteVolume": "21709456.72139100"
+	},
+	{
+		"symbol": "1INCHUSDT",
+		"lastPrice": "0.41560000",
+		"quoteVolume": "5111547.17685000"
+	},
+	{
+		"symbol": "AAVEUSDT",
+		"lastPrice": "86.26000000",
+		"quoteVolume": "7376550.77323000"
+	},
+	{
+		"symbol": "ACAUSDT",
+		"lastPrice": "0.11080000",
+		"quoteVolume": "2471322.44594300"
+	},
+	{
+		"symbol": "ACEUSDT",
+		"lastPrice": "5.49560000",
+		"quoteVolume": "6710755.66991000"
+	},
+	{
+		"symbol": "ACHUSDT",
+		"lastPrice": "0.03294000",
+		"quoteVolume": "20199666.44580000"
+	},
+	{
+		"symbol": "ACMUSDT",
+		"lastPrice": "2.39900000",
+		"quoteVolume": "1159816.68480000"
+	},
+	{
+		"symbol": "ADAUSDT",
+		"lastPrice": "0.48380000",
+		"quoteVolume": "84107537.86807000"
+	},
+	{
+		"symbol": "ADXUSDT",
+		"lastPrice": "0.20990000",
+		"quoteVolume": "1644167.00040000"
+	},
+	{
+		"symbol": "AERGOUSDT",
+		"lastPrice": "0.14310000",
+		"quoteVolume": "3056718.09280000"
+	},
+	{
+		"symbol": "AEURUSDT",
+		"lastPrice": "1.06340000",
+		"quoteVolume": "2313223.33057000"
+	},
+	{
+		"symbol": "AEVOUSDT",
+		"lastPrice": "1.54000000",
+		"quoteVolume": "18133562.97600000"
+	},
+	{
+		"symbol": "AGIXUSDT",
+		"lastPrice": "0.89646000",
+		"quoteVolume": "21285458.67665000"
+	},
+	{
+		"symbol": "AGLDUSDT",
+		"lastPrice": "1.12600000",
+		"quoteVolume": "1149021.72360000"
+	},
+	{
+		"symbol": "AIUSDT",
+		"lastPrice": "0.94700000",
+		"quoteVolume": "9264315.77700000"
+	},
+	{
+		"symbol": "AKROUSDT",
+		"lastPrice": "0.00630800",
+		"quoteVolume": "1763631.08009000"
+	},
+	{
+		"symbol": "ALCXUSDT",
+		"lastPrice": "26.19000000",
+		"quoteVolume": "968308.29746900"
+	},
+	{
+		"symbol": "ALGOUSDT",
+		"lastPrice": "0.17820000",
+		"quoteVolume": "7868694.96790000"
+	},
+	{
+		"symbol": "ALICEUSDT",
+		"lastPrice": "1.27800000",
+		"quoteVolume": "1569037.38135000"
+	},
+	{
+		"symbol": "ALPACAUSDT",
+		"lastPrice": "0.18760000",
+		"quoteVolume": "1816447.88329000"
+	},
+	{
+		"symbol": "ALPHAUSDT",
+		"lastPrice": "0.11770000",
+		"quoteVolume": "3364956.62730000"
+	},
+	{
+		"symbol": "ALPINEUSDT",
+		"lastPrice": "1.95800000",
+		"quoteVolume": "887510.73813000"
+	},
+	{
+		"symbol": "ALTUSDT",
+		"lastPrice": "0.39934000",
+		"quoteVolume": "20423317.49703000"
+	},
+	{
+		"symbol": "AMBUSDT",
+		"lastPrice": "0.00847000",
+		"quoteVolume": "1400420.93519000"
+	},
+	{
+		"symbol": "AMPUSDT",
+		"lastPrice": "0.00736800",
+		"quoteVolume": "3713259.75738500"
+	},
+	{
+		"symbol": "ANKRUSDT",
+		"lastPrice": "0.04808000",
+		"quoteVolume": "12957288.14189700"
+	},
+	{
+		"symbol": "APEUSDT",
+		"lastPrice": "1.24500000",
+		"quoteVolume": "8281541.75467000"
+	},
+	{
+		"symbol": "API3USDT",
+		"lastPrice": "2.39600000",
+		"quoteVolume": "4380315.26064000"
+	},
+	{
+		"symbol": "APTUSDT",
+		"lastPrice": "9.59640000",
+		"quoteVolume": "26845823.50937700"
+	},
+	{
+		"symbol": "ARBUSDT",
+		"lastPrice": "1.12760000",
+		"quoteVolume": "57528962.93354000"
+	},
+	{
+		"symbol": "ARDRUSDT",
+		"lastPrice": "0.10480000",
+		"quoteVolume": "1372257.67730000"
+	},
+	{
+		"symbol": "ARKMUSDT",
+		"lastPrice": "1.76640000",
+		"quoteVolume": "27885873.99430000"
+	},
+	{
+		"symbol": "ARKUSDT",
+		"lastPrice": "0.74690000",
+		"quoteVolume": "1014926.01640000"
+	},
+	{
+		"symbol": "ARPAUSDT",
+		"lastPrice": "0.07117000",
+		"quoteVolume": "3489351.54631800"
+	},
+	{
+		"symbol": "ARUSDT",
+		"lastPrice": "29.18600000",
+		"quoteVolume": "28586700.92326000"
+	},
+	{
+		"symbol": "ASRUSDT",
+		"lastPrice": "4.19800000",
+		"quoteVolume": "1935369.54100000"
+	},
+	{
+		"symbol": "ASTRUSDT",
+		"lastPrice": "0.10660000",
+		"quoteVolume": "6131989.44156000"
+	},
+	{
+		"symbol": "ASTUSDT",
+		"lastPrice": "0.14280000",
+		"quoteVolume": "2059450.25830000"
+	},
+	{
+		"symbol": "ATAUSDT",
+		"lastPrice": "0.16160000",
+		"quoteVolume": "10530052.41930000"
+	},
+	{
+		"symbol": "ATMUSDT",
+		"lastPrice": "3.34400000",
+		"quoteVolume": "1816878.26201000"
+	},
+	{
+		"symbol": "ATOMUSDT",
+		"lastPrice": "8.27900000",
+		"quoteVolume": "14324614.01484000"
+	},
+	{
+		"symbol": "AUCTIONUSDT",
+		"lastPrice": "17.68000000",
+		"quoteVolume": "3478988.55720000"
+	},
+	{
+		"symbol": "AUDIOUSDT",
+		"lastPrice": "0.18540000",
+		"quoteVolume": "1533289.36853000"
+	},
+	{
+		"symbol": "AVAUSDT",
+		"lastPrice": "0.66830000",
+		"quoteVolume": "1213600.82477000"
+	},
+	{
+		"symbol": "AVAXUSDT",
+		"lastPrice": "35.38000000",
+		"quoteVolume": "61759266.67060000"
+	},
+	{
+		"symbol": "AXLUSDT",
+		"lastPrice": "1.19490000",
+		"quoteVolume": "5327516.55632700"
+	},
+	{
+		"symbol": "AXSUSDT",
+		"lastPrice": "7.07400000",
+		"quoteVolume": "11265384.31756000"
+	},
+	{
+		"symbol": "BADGERUSDT",
+		"lastPrice": "4.42400000",
+		"quoteVolume": "2552812.77120000"
+	},
+	{
+		"symbol": "BAKEUSDT",
+		"lastPrice": "0.24290000",
+		"quoteVolume": "3171994.17652000"
+	},
+	{
+		"symbol": "BALUSDT",
+		"lastPrice": "3.84400000",
+		"quoteVolume": "926639.89535000"
+	},
+	{
+		"symbol": "BANDUSDT",
+		"lastPrice": "1.49800000",
+		"quoteVolume": "962604.76730000"
+	},
+	{
+		"symbol": "BARUSDT",
+		"lastPrice": "2.96300000",
+		"quoteVolume": "987147.46687000"
+	},
+	{
+		"symbol": "BATUSDT",
+		"lastPrice": "0.25080000",
+		"quoteVolume": "1670327.08010000"
+	},
+	{
+		"symbol": "BCHUSDT",
+		"lastPrice": "478.70000000",
+		"quoteVolume": "34064375.56630000"
+	},
+	{
+		"symbol": "BEAMXUSDT",
+		"lastPrice": "0.02716400",
+		"quoteVolume": "10092067.61500800"
+	},
+	{
+		"symbol": "BELUSDT",
+		"lastPrice": "0.96790000",
+		"quoteVolume": "6783679.62280000"
+	},
+	{
+		"symbol": "BETAUSDT",
+		"lastPrice": "0.07180000",
+		"quoteVolume": "1859970.41591000"
+	},
+	{
+		"symbol": "BICOUSDT",
+		"lastPrice": "0.50840000",
+		"quoteVolume": "4647831.25179400"
+	},
+	{
+		"symbol": "BIFIUSDT",
+		"lastPrice": "380.00000000",
+		"quoteVolume": "1397876.11410000"
+	},
+	{
+		"symbol": "BLURUSDT",
+		"lastPrice": "0.39920000",
+		"quoteVolume": "4575197.51839000"
+	},
+	{
+		"symbol": "BLZUSDT",
+		"lastPrice": "0.42930000",
+		"quoteVolume": "12056509.34220000"
+	},
+	{
+		"symbol": "BNBUSDT",
+		"lastPrice": "555.70000000",
+		"quoteVolume": "151695210.31670000"
+	},
+	{
+		"symbol": "BNTUSDT",
+		"lastPrice": "0.70490000",
+		"quoteVolume": "1589014.95635000"
+	},
+	{
+		"symbol": "BNXUSDT",
+		"lastPrice": "0.72010000",
+		"quoteVolume": "10863624.55605000"
+	},
+	{
+		"symbol": "BOMEUSDT",
+		"lastPrice": "0.00997100",
+		"quoteVolume": "172436502.96936100"
+	},
+	{
+		"symbol": "BONDUSDT",
+		"lastPrice": "2.87700000",
+		"quoteVolume": "1932496.52883000"
+	},
+	{
+		"symbol": "BONKUSDT",
+		"lastPrice": "0.00001489",
+		"quoteVolume": "17906025.28933927"
+	},
+	{
+		"symbol": "BSWUSDT",
+		"lastPrice": "0.08230000",
+		"quoteVolume": "1872650.09139000"
+	},
+	{
+		"symbol": "BTCUSDT",
+		"lastPrice": "63619.20000000",
+		"quoteVolume": "2371533602.87401120"
+	},
+	{
+		"symbol": "BTTCUSDT",
+		"lastPrice": "0.00000125",
+		"quoteVolume": "1703219.09054444"
+	},
+	{
+		"symbol": "BURGERUSDT",
+		"lastPrice": "0.49780000",
+		"quoteVolume": "1971585.57164000"
+	},
+	{
+		"symbol": "C98USDT",
+		"lastPrice": "0.28450000",
+		"quoteVolume": "2093062.35223000"
+	},
+	{
+		"symbol": "CAKEUSDT",
+		"lastPrice": "2.79000000",
+		"quoteVolume": "9381402.62968000"
+	},
+	{
+		"symbol": "CELOUSDT",
+		"lastPrice": "0.81480000",
+		"quoteVolume": "5343741.88449000"
+	},
+	{
+		"symbol": "CELRUSDT",
+		"lastPrice": "0.02672000",
+		"quoteVolume": "1430972.09615700"
+	},
+	{
+		"symbol": "CFXUSDT",
+		"lastPrice": "0.23960000",
+		"quoteVolume": "16194528.64420000"
+	},
+	{
+		"symbol": "CHESSUSDT",
+		"lastPrice": "0.20520000",
+		"quoteVolume": "1280693.02259000"
+	},
+	{
+		"symbol": "CHRUSDT",
+		"lastPrice": "0.31340000",
+		"quoteVolume": "3124588.64200000"
+	},
+	{
+		"symbol": "CHZUSDT",
+		"lastPrice": "0.11220000",
+		"quoteVolume": "15167880.31284000"
+	},
+	{
+		"symbol": "CITYUSDT",
+		"lastPrice": "3.38400000",
+		"quoteVolume": "1970225.07705000"
+	},
+	{
+		"symbol": "CKBUSDT",
+		"lastPrice": "0.01975900",
+		"quoteVolume": "25630543.02451700"
+	},
+	{
+		"symbol": "CLVUSDT",
+		"lastPrice": "0.07934000",
+		"quoteVolume": "1932654.72504100"
+	},
+	{
+		"symbol": "COMBOUSDT",
+		"lastPrice": "0.70330000",
+		"quoteVolume": "4786547.43879000"
+	},
+	{
+		"symbol": "COMPUSDT",
+		"lastPrice": "55.03000000",
+		"quoteVolume": "1822065.69494000"
+	},
+	{
+		"symbol": "COSUSDT",
+		"lastPrice": "0.01249400",
+		"quoteVolume": "6174533.63855460"
+	},
+	{
+		"symbol": "COTIUSDT",
+		"lastPrice": "0.11601000",
+		"quoteVolume": "3516776.78197000"
+	},
+	{
+		"symbol": "CREAMUSDT",
+		"lastPrice": "48.18000000",
+		"quoteVolume": "1381016.20794000"
+	},
+	{
+		"symbol": "CRVUSDT",
+		"lastPrice": "0.43150000",
+		"quoteVolume": "7687770.58581000"
+	},
+	{
+		"symbol": "CTKUSDT",
+		"lastPrice": "0.72860000",
+		"quoteVolume": "1553622.93077000"
+	},
+	{
+		"symbol": "CTSIUSDT",
+		"lastPrice": "0.20140000",
+		"quoteVolume": "1565349.12350000"
+	},
+	{
+		"symbol": "CTXCUSDT",
+		"lastPrice": "0.31430000",
+		"quoteVolume": "1728285.59620000"
+	},
+	{
+		"symbol": "CVCUSDT",
+		"lastPrice": "0.16460000",
+		"quoteVolume": "2244665.12810000"
+	},
+	{
+		"symbol": "CVPUSDT",
+		"lastPrice": "0.44620000",
+		"quoteVolume": "3008940.21349000"
+	},
+	{
+		"symbol": "CVXUSDT",
+		"lastPrice": "2.50900000",
+		"quoteVolume": "1497419.55811400"
+	},
+	{
+		"symbol": "CYBERUSDT",
+		"lastPrice": "8.81100000",
+		"quoteVolume": "3731778.36842000"
+	},
+	{
+		"symbol": "DARUSDT",
+		"lastPrice": "0.15428000",
+		"quoteVolume": "1631157.71721000"
+	},
+	{
+		"symbol": "DASHUSDT",
+		"lastPrice": "29.80000000",
+		"quoteVolume": "2632746.96374000"
+	},
+	{
+		"symbol": "DATAUSDT",
+		"lastPrice": "0.05883000",
+		"quoteVolume": "1320638.66139400"
+	},
+	{
+		"symbol": "DCRUSDT",
+		"lastPrice": "20.92000000",
+		"quoteVolume": "1209624.01109000"
+	},
+	{
+		"symbol": "DEGOUSDT",
+		"lastPrice": "2.28600000",
+		"quoteVolume": "2186242.48221000"
+	},
+	{
+		"symbol": "DENTUSDT",
+		"lastPrice": "0.00134200",
+		"quoteVolume": "2130989.60698400"
+	},
+	{
+		"symbol": "DEXEUSDT",
+		"lastPrice": "13.27900000",
+		"quoteVolume": "1616064.12777000"
+	},
+	{
+		"symbol": "DFUSDT",
+		"lastPrice": "0.04925000",
+		"quoteVolume": "2450413.83209000"
+	},
+	{
+		"symbol": "DGBUSDT",
+		"lastPrice": "0.01266000",
+		"quoteVolume": "990347.13058100"
+	},
+	{
+		"symbol": "DIAUSDT",
+		"lastPrice": "0.50130000",
+		"quoteVolume": "2342076.20108000"
+	},
+	{
+		"symbol": "DOCKUSDT",
+		"lastPrice": "0.03043000",
+		"quoteVolume": "1061911.72803000"
+	},
+	{
+		"symbol": "DODOUSDT",
+		"lastPrice": "0.15900000",
+		"quoteVolume": "2222719.05622000"
+	},
+	{
+		"symbol": "DOGEUSDT",
+		"lastPrice": "0.15188000",
+		"quoteVolume": "256755736.04728000"
+	},
+	{
+		"symbol": "DOTUSDT",
+		"lastPrice": "6.74200000",
+		"quoteVolume": "26184422.55246000"
+	},
+	{
+		"symbol": "DUSKUSDT",
+		"lastPrice": "0.37610000",
+		"quoteVolume": "4411746.53720000"
+	},
+	{
+		"symbol": "DYDXUSDT",
+		"lastPrice": "2.27000000",
+		"quoteVolume": "9335114.30967000"
+	},
+	{
+		"symbol": "DYMUSDT",
+		"lastPrice": "3.96800000",
+		"quoteVolume": "14150525.88160000"
+	},
+	{
+		"symbol": "EDUUSDT",
+		"lastPrice": "0.59097000",
+		"quoteVolume": "4067784.37064000"
+	},
+	{
+		"symbol": "EGLDUSDT",
+		"lastPrice": "41.54000000",
+		"quoteVolume": "4168272.26090000"
+	},
+	{
+		"symbol": "ELFUSDT",
+		"lastPrice": "0.55640000",
+		"quoteVolume": "1268513.58502000"
+	},
+	{
+		"symbol": "ENAUSDT",
+		"lastPrice": "0.96600000",
+		"quoteVolume": "232664651.41518000"
+	},
+	{
+		"symbol": "ENJUSDT",
+		"lastPrice": "0.33200000",
+		"quoteVolume": "3023453.80883000"
+	},
+	{
+		"symbol": "ENSUSDT",
+		"lastPrice": "13.92000000",
+		"quoteVolume": "4539399.21290000"
+	},
+	{
+		"symbol": "EOSUSDT",
+		"lastPrice": "0.78940000",
+		"quoteVolume": "11108090.38640000"
+	},
+	{
+		"symbol": "EPXUSDT",
+		"lastPrice": "0.00020740",
+		"quoteVolume": "2309214.85478970"
+	},
+	{
+		"symbol": "ERNUSDT",
+		"lastPrice": "4.51700000",
+		"quoteVolume": "1712280.56800000"
+	},
+	{
+		"symbol": "ETCUSDT",
+		"lastPrice": "26.06000000",
+		"quoteVolume": "26401186.13310000"
+	},
+	{
+		"symbol": "ETHFIUSDT",
+		"lastPrice": "3.73600000",
+		"quoteVolume": "46392428.11810000"
+	},
+	{
+		"symbol": "ETHUSDT",
+		"lastPrice": "3041.21000000",
+		"quoteVolume": "930503414.82788700"
+	},
+	{
+		"symbol": "EURUSDT",
+		"lastPrice": "1.06320000",
+		"quoteVolume": "23467594.86874000"
+	},
+	{
+		"symbol": "FARMUSDT",
+		"lastPrice": "69.17000000",
+		"quoteVolume": "8073997.05350000"
+	},
+	{
+		"symbol": "FDUSDUSDT",
+		"lastPrice": "0.99930000",
+		"quoteVolume": "450370477.24520000"
+	},
+	{
+		"symbol": "FETUSDT",
+		"lastPrice": "2.21960000",
+		"quoteVolume": "74194010.75920000"
+	},
+	{
+		"symbol": "FIDAUSDT",
+		"lastPrice": "0.32990000",
+		"quoteVolume": "2172695.20513000"
+	},
+	{
+		"symbol": "FILUSDT",
+		"lastPrice": "6.17800000",
+		"quoteVolume": "39930732.73642000"
+	},
+	{
+		"symbol": "FIOUSDT",
+		"lastPrice": "0.03786000",
+		"quoteVolume": "2089121.45733000"
+	},
+	{
+		"symbol": "FIROUSDT",
+		"lastPrice": "1.65400000",
+		"quoteVolume": "2738327.09620000"
+	},
+	{
+		"symbol": "FISUSDT",
+		"lastPrice": "0.58130000",
+		"quoteVolume": "2597458.02630000"
+	},
+	{
+		"symbol": "FLMUSDT",
+		"lastPrice": "0.09540000",
+		"quoteVolume": "3281291.18340000"
+	},
+	{
+		"symbol": "FLOKIUSDT",
+		"lastPrice": "0.00014005",
+		"quoteVolume": "36057211.33369095"
+	},
+	{
+		"symbol": "FLOWUSDT",
+		"lastPrice": "0.88700000",
+		"quoteVolume": "3057030.43526000"
+	},
+	{
+		"symbol": "FLUXUSDT",
+		"lastPrice": "0.91640000",
+		"quoteVolume": "1491695.30284900"
+	},
+	{
+		"symbol": "FORTHUSDT",
+		"lastPrice": "4.54100000",
+		"quoteVolume": "2571245.87996000"
+	},
+	{
+		"symbol": "FORUSDT",
+		"lastPrice": "0.02135000",
+		"quoteVolume": "2016659.33681000"
+	},
+	{
+		"symbol": "FRONTUSDT",
+		"lastPrice": "0.77210000",
+		"quoteVolume": "7911644.37800000"
+	},
+	{
+		"symbol": "FTMUSDT",
+		"lastPrice": "0.70090000",
+		"quoteVolume": "40342130.91510000"
+	},
+	{
+		"symbol": "FTTUSDT",
+		"lastPrice": "1.27360000",
+		"quoteVolume": "2409102.30375300"
+	},
+	{
+		"symbol": "FUNUSDT",
+		"lastPrice": "0.00579500",
+		"quoteVolume": "1407947.16766800"
+	},
+	{
+		"symbol": "FXSUSDT",
+		"lastPrice": "4.98900000",
+		"quoteVolume": "3578386.88390000"
+	},
+	{
+		"symbol": "GALAUSDT",
+		"lastPrice": "0.04482000",
+		"quoteVolume": "29443571.58760000"
+	},
+	{
+		"symbol": "GALUSDT",
+		"lastPrice": "3.84000000",
+		"quoteVolume": "9682930.62268300"
+	},
+	{
+		"symbol": "GASUSDT",
+		"lastPrice": "5.38100000",
+		"quoteVolume": "5498716.79170000"
+	},
+	{
+		"symbol": "GFTUSDT",
+		"lastPrice": "0.01796000",
+		"quoteVolume": "1424415.83756000"
+	},
+	{
+		"symbol": "GHSTUSDT",
+		"lastPrice": "1.97400000",
+		"quoteVolume": "3439180.02780000"
+	},
+	{
+		"symbol": "GLMRUSDT",
+		"lastPrice": "0.31420000",
+		"quoteVolume": "2326230.90758000"
+	},
+	{
+		"symbol": "GLMUSDT",
+		"lastPrice": "0.37920000",
+		"quoteVolume": "2529143.13963000"
+	},
+	{
+		"symbol": "GMTUSDT",
+		"lastPrice": "0.24190000",
+		"quoteVolume": "11260024.89704000"
+	},
+	{
+		"symbol": "GMXUSDT",
+		"lastPrice": "28.22000000",
+		"quoteVolume": "3892860.78767000"
+	},
+	{
+		"symbol": "GNOUSDT",
+		"lastPrice": "345.20000000",
+		"quoteVolume": "1760950.72160000"
+	},
+	{
+		"symbol": "GNSUSDT",
+		"lastPrice": "3.37100000",
+		"quoteVolume": "2839610.60585000"
+	},
+	{
+		"symbol": "GRTUSDT",
+		"lastPrice": "0.26860000",
+		"quoteVolume": "14312536.32820000"
+	},
+	{
+		"symbol": "GTCUSDT",
+		"lastPrice": "1.19600000",
+		"quoteVolume": "1643785.44850000"
+	},
+	{
+		"symbol": "HARDUSDT",
+		"lastPrice": "0.19750000",
+		"quoteVolume": "1924398.77070000"
+	},
+	{
+		"symbol": "HBARUSDT",
+		"lastPrice": "0.08110000",
+		"quoteVolume": "8633515.19210000"
+	},
+	{
+		"symbol": "HFTUSDT",
+		"lastPrice": "0.31120000",
+		"quoteVolume": "1876953.24761000"
+	},
+	{
+		"symbol": "HIFIUSDT",
+		"lastPrice": "0.80540000",
+		"quoteVolume": "4476626.38677000"
+	},
+	{
+		"symbol": "HIGHUSDT",
+		"lastPrice": "2.52900000",
+		"quoteVolume": "5695101.06898600"
+	},
+	{
+		"symbol": "HIVEUSDT",
+		"lastPrice": "0.32990000",
+		"quoteVolume": "1470477.88250000"
+	},
+	{
+		"symbol": "HOOKUSDT",
+		"lastPrice": "0.94370000",
+		"quoteVolume": "2973630.09435000"
+	},
+	{
+		"symbol": "HOTUSDT",
+		"lastPrice": "0.00235200",
+		"quoteVolume": "1876984.06517300"
+	},
+	{
+		"symbol": "ICPUSDT",
+		"lastPrice": "14.52800000",
+		"quoteVolume": "56516287.07378000"
+	},
+	{
+		"symbol": "ICXUSDT",
+		"lastPrice": "0.23430000",
+		"quoteVolume": "2103653.36609000"
+	},
+	{
+		"symbol": "IDEXUSDT",
+		"lastPrice": "0.06116000",
+		"quoteVolume": "1390539.27441500"
+	},
+	{
+		"symbol": "IDUSDT",
+		"lastPrice": "0.81105000",
+		"quoteVolume": "22587104.28234000"
+	},
+	{
+		"symbol": "ILVUSDT",
+		"lastPrice": "94.95000000",
+		"quoteVolume": "2034022.22231000"
+	},
+	{
+		"symbol": "IMXUSDT",
+		"lastPrice": "2.01950000",
+		"quoteVolume": "5061841.48449500"
+	},
+	{
+		"symbol": "INJUSDT",
+		"lastPrice": "27.70000000",
+		"quoteVolume": "31958914.03900000"
+	},
+	{
+		"symbol": "IOSTUSDT",
+		"lastPrice": "0.00948000",
+		"quoteVolume": "1964080.97954000"
+	},
+	{
+		"symbol": "IOTAUSDT",
+		"lastPrice": "0.22910000",
+		"quoteVolume": "4829176.72040000"
+	},
+	{
+		"symbol": "IOTXUSDT",
+		"lastPrice": "0.05502000",
+		"quoteVolume": "4406446.40710000"
+	},
+	{
+		"symbol": "IQUSDT",
+		"lastPrice": "0.00881100",
+		"quoteVolume": "3023950.11663000"
+	},
+	{
+		"symbol": "IRISUSDT",
+		"lastPrice": "0.03010000",
+		"quoteVolume": "1708572.39561600"
+	},
+	{
+		"symbol": "JASMYUSDT",
+		"lastPrice": "0.01839300",
+		"quoteVolume": "11955788.76641030"
+	},
+	{
+		"symbol": "JOEUSDT",
+		"lastPrice": "0.52100000",
+		"quoteVolume": "2122872.93524900"
+	},
+	{
+		"symbol": "JSTUSDT",
+		"lastPrice": "0.03255000",
+		"quoteVolume": "2235947.13299600"
+	},
+	{
+		"symbol": "JTOUSDT",
+		"lastPrice": "3.74580000",
+		"quoteVolume": "50442434.86515000"
+	},
+	{
+		"symbol": "JUPUSDT",
+		"lastPrice": "1.04080000",
+		"quoteVolume": "32993049.03364000"
+	},
+	{
+		"symbol": "JUVUSDT",
+		"lastPrice": "2.66700000",
+		"quoteVolume": "1451051.50390000"
+	},
+	{
+		"symbol": "KAVAUSDT",
+		"lastPrice": "0.67630000",
+		"quoteVolume": "6178411.76197000"
+	},
+	{
+		"symbol": "KDAUSDT",
+		"lastPrice": "0.87900000",
+		"quoteVolume": "2575037.26342000"
+	},
+	{
+		"symbol": "KEYUSDT",
+		"lastPrice": "0.00697400",
+		"quoteVolume": "4701622.44824400"
+	},
+	{
+		"symbol": "KLAYUSDT",
+		"lastPrice": "0.18840000",
+		"quoteVolume": "2508708.42277000"
+	},
+	{
+		"symbol": "KMDUSDT",
+		"lastPrice": "0.42490000",
+		"quoteVolume": "1976104.84410000"
+	},
+	{
+		"symbol": "KNCUSDT",
+		"lastPrice": "0.59570000",
+		"quoteVolume": "1091804.87476000"
+	},
+	{
+		"symbol": "KP3RUSDT",
+		"lastPrice": "79.44000000",
+		"quoteVolume": "2280654.64950000"
+	},
+	{
+		"symbol": "KSMUSDT",
+		"lastPrice": "31.39000000",
+		"quoteVolume": "1430560.36608000"
+	},
+	{
+		"symbol": "LAZIOUSDT",
+		"lastPrice": "2.90300000",
+		"quoteVolume": "1327266.04461000"
+	},
+	{
+		"symbol": "LDOUSDT",
+		"lastPrice": "1.97500000",
+		"quoteVolume": "5335420.69224000"
+	},
+	{
+		"symbol": "LEVERUSDT",
+		"lastPrice": "0.00249600",
+		"quoteVolume": "3983487.11079900"
+	},
+	{
+		"symbol": "LINAUSDT",
+		"lastPrice": "0.00798300",
+		"quoteVolume": "3286234.97680932"
+	},
+	{
+		"symbol": "LINKUSDT",
+		"lastPrice": "14.04600000",
+		"quoteVolume": "52281119.11588000"
+	},
+	{
+		"symbol": "LITUSDT",
+		"lastPrice": "1.06300000",
+		"quoteVolume": "1786307.47850000"
+	},
+	{
+		"symbol": "LOKAUSDT",
+		"lastPrice": "0.27390000",
+		"quoteVolume": "1781893.76418000"
+	},
+	{
+		"symbol": "LOOMUSDT",
+		"lastPrice": "0.08017000",
+		"quoteVolume": "2094467.06255000"
+	},
+	{
+		"symbol": "LPTUSDT",
+		"lastPrice": "13.06900000",
+		"quoteVolume": "10422874.94394000"
+	},
+	{
+		"symbol": "LQTYUSDT",
+		"lastPrice": "1.01600000",
+		"quoteVolume": "9630262.75530000"
+	},
+	{
+		"symbol": "LRCUSDT",
+		"lastPrice": "0.25560000",
+		"quoteVolume": "2761634.32100000"
+	},
+	{
+		"symbol": "LSKUSDT",
+		"lastPrice": "1.71800000",
+		"quoteVolume": "7431769.05020000"
+	},
+	{
+		"symbol": "LTCUSDT",
+		"lastPrice": "82.46000000",
+		"quoteVolume": "38375540.92036000"
+	},
+	{
+		"symbol": "LTOUSDT",
+		"lastPrice": "0.19800000",
+		"quoteVolume": "2140473.74250000"
+	},
+	{
+		"symbol": "LUNAUSDT",
+		"lastPrice": "0.60890000",
+		"quoteVolume": "7517264.93886800"
+	},
+	{
+		"symbol": "LUNCUSDT",
+		"lastPrice": "0.00010123",
+		"quoteVolume": "8845698.42320076"
+	},
+	{
+		"symbol": "MAGICUSDT",
+		"lastPrice": "0.77550000",
+		"quoteVolume": "4362716.16210000"
+	},
+	{
+		"symbol": "MANAUSDT",
+		"lastPrice": "0.44030000",
+		"quoteVolume": "6517964.89410000"
+	},
+	{
+		"symbol": "MANTAUSDT",
+		"lastPrice": "1.83400000",
+		"quoteVolume": "17320857.18390000"
+	},
+	{
+		"symbol": "MASKUSDT",
+		"lastPrice": "3.46400000",
+		"quoteVolume": "4324758.51410000"
+	},
+	{
+		"symbol": "MATICUSDT",
+		"lastPrice": "0.68080000",
+		"quoteVolume": "47978861.43568000"
+	},
+	{
+		"symbol": "MAVUSDT",
+		"lastPrice": "0.38430000",
+		"quoteVolume": "3986213.70590000"
+	},
+	{
+		"symbol": "MBLUSDT",
+		"lastPrice": "0.00446500",
+		"quoteVolume": "1149443.82685800"
+	},
+	{
+		"symbol": "MBOXUSDT",
+		"lastPrice": "0.30750000",
+		"quoteVolume": "2628179.27872000"
+	},
+	{
+		"symbol": "MDTUSDT",
+		"lastPrice": "0.07691000",
+		"quoteVolume": "2531919.82866000"
+	},
+	{
+		"symbol": "MDXUSDT",
+		"lastPrice": "0.06111000",
+		"quoteVolume": "4201478.99482200"
+	},
+	{
+		"symbol": "MEMEUSDT",
+		"lastPrice": "0.02612900",
+		"quoteVolume": "10954221.09747000"
+	},
+	{
+		"symbol": "METISUSDT",
+		"lastPrice": "63.24000000",
+		"quoteVolume": "3600184.63041000"
+	},
+	{
+		"symbol": "MINAUSDT",
+		"lastPrice": "0.81290000",
+		"quoteVolume": "5907250.90992000"
+	},
+	{
+		"symbol": "MKRUSDT",
+		"lastPrice": "2995.00000000",
+		"quoteVolume": "24041810.48900000"
+	},
+	{
+		"symbol": "MLNUSDT",
+		"lastPrice": "22.33000000",
+		"quoteVolume": "2734911.26803000"
+	},
+	{
+		"symbol": "MOVRUSDT",
+		"lastPrice": "12.85700000",
+		"quoteVolume": "3010164.55469200"
+	},
+	{
+		"symbol": "MTLUSDT",
+		"lastPrice": "1.66300000",
+		"quoteVolume": "13342867.23640000"
+	},
+	{
+		"symbol": "NEARUSDT",
+		"lastPrice": "5.65000000",
+		"quoteVolume": "75737689.14860000"
+	},
+	{
+		"symbol": "NEOUSDT",
+		"lastPrice": "18.02000000",
+		"quoteVolume": "19245274.45630000"
+	},
+	{
+		"symbol": "NEXOUSDT",
+		"lastPrice": "1.22200000",
+		"quoteVolume": "1240247.96594000"
+	},
+	{
+		"symbol": "NFPUSDT",
+		"lastPrice": "0.42506000",
+		"quoteVolume": "6242565.49244000"
+	},
+	{
+		"symbol": "NKNUSDT",
+		"lastPrice": "0.12400000",
+		"quoteVolume": "2424237.32370000"
+	},
+	{
+		"symbol": "NMRUSDT",
+		"lastPrice": "25.62000000",
+		"quoteVolume": "1732738.30570000"
+	},
+	{
+		"symbol": "NTRNUSDT",
+		"lastPrice": "0.72790000",
+		"quoteVolume": "4153549.42075000"
+	},
+	{
+		"symbol": "NULSUSDT",
+		"lastPrice": "0.67170000",
+		"quoteVolume": "1563124.24460000"
+	},
+	{
+		"symbol": "OAXUSDT",
+		"lastPrice": "0.21700000",
+		"quoteVolume": "2085589.14480000"
+	},
+	{
+		"symbol": "OCEANUSDT",
+		"lastPrice": "0.90660000",
+		"quoteVolume": "7118721.52190000"
+	},
+	{
+		"symbol": "OGNUSDT",
+		"lastPrice": "0.15550000",
+		"quoteVolume": "2314996.84530000"
+	},
+	{
+		"symbol": "OGUSDT",
+		"lastPrice": "4.89900000",
+		"quoteVolume": "1039377.63640000"
+	},
+	{
+		"symbol": "OMGUSDT",
+		"lastPrice": "0.65400000",
+		"quoteVolume": "2094500.21850000"
+	},
+	{
+		"symbol": "OMNIUSDT",
+		"lastPrice": "25.48000000",
+		"quoteVolume": "51276987.63020000"
+	},
+	{
+		"symbol": "OMUSDT",
+		"lastPrice": "0.68773000",
+		"quoteVolume": "13859637.52773000"
+	},
+	{
+		"symbol": "ONEUSDT",
+		"lastPrice": "0.02066000",
+		"quoteVolume": "2913780.06260300"
+	},
+	{
+		"symbol": "ONGUSDT",
+		"lastPrice": "0.63080000",
+		"quoteVolume": "22429315.55780000"
+	},
+	{
+		"symbol": "ONTUSDT",
+		"lastPrice": "0.36810000",
+		"quoteVolume": "19514650.80480000"
+	},
+	{
+		"symbol": "OOKIUSDT",
+		"lastPrice": "0.00231600",
+		"quoteVolume": "1486326.44090500"
+	},
+	{
+		"symbol": "OPUSDT",
+		"lastPrice": "2.27700000",
+		"quoteVolume": "39788409.24892000"
+	},
+	{
+		"symbol": "ORDIUSDT",
+		"lastPrice": "45.13700000",
+		"quoteVolume": "93646985.97655000"
+	},
+	{
+		"symbol": "ORNUSDT",
+		"lastPrice": "1.57320000",
+		"quoteVolume": "6733805.69281000"
+	},
+	{
+		"symbol": "OSMOUSDT",
+		"lastPrice": "0.92270000",
+		"quoteVolume": "1752154.47278300"
+	},
+	{
+		"symbol": "OXTUSDT",
+		"lastPrice": "0.10760000",
+		"quoteVolume": "1514032.79360000"
+	},
+	{
+		"symbol": "PAXGUSDT",
+		"lastPrice": "2391.00000000",
+		"quoteVolume": "4407599.89420000"
+	},
+	{
+		"symbol": "PDAUSDT",
+		"lastPrice": "0.08720000",
+		"quoteVolume": "5478494.86792000"
+	},
+	{
+		"symbol": "PENDLEUSDT",
+		"lastPrice": "5.83120000",
+		"quoteVolume": "33232134.17966000"
+	},
+	{
+		"symbol": "PEOPLEUSDT",
+		"lastPrice": "0.02472000",
+		"quoteVolume": "4857608.41182400"
+	},
+	{
+		"symbol": "PEPEUSDT",
+		"lastPrice": "0.00000508",
+		"quoteVolume": "201477730.61923198"
+	},
+	{
+		"symbol": "PERPUSDT",
+		"lastPrice": "1.05713000",
+		"quoteVolume": "2316205.97726860"
+	},
+	{
+		"symbol": "PHAUSDT",
+		"lastPrice": "0.19350000",
+		"quoteVolume": "1755130.29380000"
+	},
+	{
+		"symbol": "PHBUSDT",
+		"lastPrice": "1.89390000",
+		"quoteVolume": "9877310.30860000"
+	},
+	{
+		"symbol": "PIVXUSDT",
+		"lastPrice": "0.38290000",
+		"quoteVolume": "1252963.18650000"
+	},
+	{
+		"symbol": "PIXELUSDT",
+		"lastPrice": "0.42990000",
+		"quoteVolume": "23591313.62485000"
+	},
+	{
+		"symbol": "POLSUSDT",
+		"lastPrice": "0.78740000",
+		"quoteVolume": "1285174.99308000"
+	},
+	{
+		"symbol": "POLYXUSDT",
+		"lastPrice": "0.44170000",
+		"quoteVolume": "19271765.73340000"
+	},
+	{
+		"symbol": "PONDUSDT",
+		"lastPrice": "0.02382000",
+		"quoteVolume": "2152689.74998060"
+	},
+	{
+		"symbol": "PORTALUSDT",
+		"lastPrice": "1.00500000",
+		"quoteVolume": "10800465.76291000"
+	},
+	{
+		"symbol": "PORTOUSDT",
+		"lastPrice": "2.60200000",
+		"quoteVolume": "808090.24891000"
+	},
+	{
+		"symbol": "POWRUSDT",
+		"lastPrice": "0.29660000",
+		"quoteVolume": "2833757.31040000"
+	},
+	{
+		"symbol": "PROMUSDT",
+		"lastPrice": "10.37100000",
+		"quoteVolume": "2042719.43544000"
+	},
+	{
+		"symbol": "PROSUSDT",
+		"lastPrice": "0.39810000",
+		"quoteVolume": "1787327.88420000"
+	},
+	{
+		"symbol": "PSGUSDT",
+		"lastPrice": "4.59000000",
+		"quoteVolume": "1421764.14235000"
+	},
+	{
+		"symbol": "PUNDIXUSDT",
+		"lastPrice": "0.69370000",
+		"quoteVolume": "32925996.88740000"
+	},
+	{
+		"symbol": "PYRUSDT",
+		"lastPrice": "4.92000000",
+		"quoteVolume": "1492907.42552300"
+	},
+	{
+		"symbol": "PYTHUSDT",
+		"lastPrice": "0.63700000",
+		"quoteVolume": "10858309.30242000"
+	},
+	{
+		"symbol": "QIUSDT",
+		"lastPrice": "0.01733000",
+		"quoteVolume": "1929475.99466000"
+	},
+	{
+		"symbol": "QKCUSDT",
+		"lastPrice": "0.01253200",
+		"quoteVolume": "1784916.51778300"
+	},
+	{
+		"symbol": "QNTUSDT",
+		"lastPrice": "104.80000000",
+		"quoteVolume": "2646526.45450000"
+	},
+	{
+		"symbol": "QTUMUSDT",
+		"lastPrice": "4.01700000",
+		"quoteVolume": "2832178.07880000"
+	},
+	{
+		"symbol": "QUICKUSDT",
+		"lastPrice": "0.05941000",
+		"quoteVolume": "2193638.81165000"
+	},
+	{
+		"symbol": "RADUSDT",
+		"lastPrice": "1.75600000",
+		"quoteVolume": "1384992.74530000"
+	},
+	{
+		"symbol": "RAREUSDT",
+		"lastPrice": "0.12890000",
+		"quoteVolume": "1352455.73052000"
+	},
+	{
+		"symbol": "RAYUSDT",
+		"lastPrice": "1.56370000",
+		"quoteVolume": "5889363.88681000"
+	},
+	{
+		"symbol": "RDNTUSDT",
+		"lastPrice": "0.20490000",
+		"quoteVolume": "3560914.73560000"
+	},
+	{
+		"symbol": "REEFUSDT",
+		"lastPrice": "0.00210800",
+		"quoteVolume": "1420392.26303600"
+	},
+	{
+		"symbol": "REIUSDT",
+		"lastPrice": "0.08057000",
+		"quoteVolume": "17740275.51124800"
+	},
+	{
+		"symbol": "RENUSDT",
+		"lastPrice": "0.06186000",
+		"quoteVolume": "1070939.23585900"
+	},
+	{
+		"symbol": "REQUSDT",
+		"lastPrice": "0.12730000",
+		"quoteVolume": "3570306.36590000"
+	},
+	{
+		"symbol": "RIFUSDT",
+		"lastPrice": "0.20620000",
+		"quoteVolume": "1780023.47800000"
+	},
+	{
+		"symbol": "RLCUSDT",
+		"lastPrice": "2.82300000",
+		"quoteVolume": "6650850.17630000"
+	},
+	{
+		"symbol": "RNDRUSDT",
+		"lastPrice": "8.03400000",
+		"quoteVolume": "40985376.69780000"
+	},
+	{
+		"symbol": "RONINUSDT",
+		"lastPrice": "3.18800000",
+		"quoteVolume": "5076731.97935000"
+	},
+	{
+		"symbol": "ROSEUSDT",
+		"lastPrice": "0.09937000",
+		"quoteVolume": "8228503.90820200"
+	},
+	{
+		"symbol": "RPLUSDT",
+		"lastPrice": "22.11000000",
+		"quoteVolume": "3712407.38470000"
+	},
+	{
+		"symbol": "RSRUSDT",
+		"lastPrice": "0.00597500",
+		"quoteVolume": "5491414.24000280"
+	},
+	{
+		"symbol": "RUNEUSDT",
+		"lastPrice": "5.29300000",
+		"quoteVolume": "128790500.07860000"
+	},
+	{
+		"symbol": "RVNUSDT",
+		"lastPrice": "0.03063000",
+		"quoteVolume": "4807000.66868800"
+	},
+	{
+		"symbol": "SAGAUSDT",
+		"lastPrice": "4.24820000",
+		"quoteVolume": "113840210.70788000"
+	},
+	{
+		"symbol": "SANDUSDT",
+		"lastPrice": "0.45390000",
+		"quoteVolume": "9236611.75770000"
+	},
+	{
+		"symbol": "SANTOSUSDT",
+		"lastPrice": "6.07900000",
+		"quoteVolume": "3115906.51706000"
+	},
+	{
+		"symbol": "SCRTUSDT",
+		"lastPrice": "0.43690000",
+		"quoteVolume": "1423147.19425000"
+	},
+	{
+		"symbol": "SCUSDT",
+		"lastPrice": "0.00708600",
+		"quoteVolume": "2001566.77305500"
+	},
+	{
+		"symbol": "SEIUSDT",
+		"lastPrice": "0.58080000",
+		"quoteVolume": "31881549.67704000"
+	},
+	{
+		"symbol": "SFPUSDT",
+		"lastPrice": "0.82110000",
+		"quoteVolume": "1878643.81870000"
+	},
+	{
+		"symbol": "SHIBUSDT",
+		"lastPrice": "0.00002273",
+		"quoteVolume": "98831758.02521219"
+	},
+	{
+		"symbol": "SKLUSDT",
+		"lastPrice": "0.09189000",
+		"quoteVolume": "4038036.36139000"
+	},
+	{
+		"symbol": "SLPUSDT",
+		"lastPrice": "0.00407300",
+		"quoteVolume": "1722017.45025900"
+	},
+	{
+		"symbol": "SNTUSDT",
+		"lastPrice": "0.03869000",
+		"quoteVolume": "1073786.63297000"
+	},
+	{
+		"symbol": "SNXUSDT",
+		"lastPrice": "2.95000000",
+		"quoteVolume": "5206085.61640000"
+	},
+	{
+		"symbol": "SOLUSDT",
+		"lastPrice": "141.19000000",
+		"quoteVolume": "840431830.35540000"
+	},
+	{
+		"symbol": "SPELLUSDT",
+		"lastPrice": "0.00087520",
+		"quoteVolume": "1836466.73967060"
+	},
+	{
+		"symbol": "SSVUSDT",
+		"lastPrice": "37.98000000",
+		"quoteVolume": "5977920.05121000"
+	},
+	{
+		"symbol": "STEEMUSDT",
+		"lastPrice": "0.26310000",
+		"quoteVolume": "1450787.15930000"
+	},
+	{
+		"symbol": "STGUSDT",
+		"lastPrice": "0.51050000",
+		"quoteVolume": "2896646.04741000"
+	},
+	{
+		"symbol": "STMXUSDT",
+		"lastPrice": "0.00764600",
+		"quoteVolume": "8943801.46998200"
+	},
+	{
+		"symbol": "STORJUSDT",
+		"lastPrice": "0.53820000",
+		"quoteVolume": "2153391.83100000"
+	},
+	{
+		"symbol": "STPTUSDT",
+		"lastPrice": "0.05515000",
+		"quoteVolume": "1406053.21030900"
+	},
+	{
+		"symbol": "STRAXUSDT",
+		"lastPrice": "0.08990000",
+		"quoteVolume": "3760819.79990000"
+	},
+	{
+		"symbol": "STRKUSDT",
+		"lastPrice": "1.22100000",
+		"quoteVolume": "20669480.90474000"
+	},
+	{
+		"symbol": "STXUSDT",
+		"lastPrice": "2.43030000",
+		"quoteVolume": "22169226.80558000"
+	},
+	{
+		"symbol": "SUIUSDT",
+		"lastPrice": "1.33220000",
+		"quoteVolume": "71094668.69139000"
+	},
+	{
+		"symbol": "SUNUSDT",
+		"lastPrice": "0.01345200",
+		"quoteVolume": "1623835.11367200"
+	},
+	{
+		"symbol": "SUPERUSDT",
+		"lastPrice": "1.02230000",
+		"quoteVolume": "5542837.73710000"
+	},
+	{
+		"symbol": "SUSHIUSDT",
+		"lastPrice": "0.96800000",
+		"quoteVolume": "4593981.57580000"
+	},
+	{
+		"symbol": "SXPUSDT",
+		"lastPrice": "0.34690000",
+		"quoteVolume": "1835204.07893000"
+	},
+	{
+		"symbol": "SYNUSDT",
+		"lastPrice": "1.07320000",
+		"quoteVolume": "3641667.71891000"
+	},
+	{
+		"symbol": "SYSUSDT",
+		"lastPrice": "0.27080000",
+		"quoteVolume": "30517953.88940000"
+	},
+	{
+		"symbol": "TAOUSDT",
+		"lastPrice": "440.00000000",
+		"quoteVolume": "17655165.66114000"
+	},
+	{
+		"symbol": "TFUELUSDT",
+		"lastPrice": "0.08722000",
+		"quoteVolume": "4142089.77926000"
+	},
+	{
+		"symbol": "THETAUSDT",
+		"lastPrice": "2.07700000",
+		"quoteVolume": "11835601.89660000"
+	},
+	{
+		"symbol": "TIAUSDT",
+		"lastPrice": "11.20000000",
+		"quoteVolume": "55149476.90800000"
+	},
+	{
+		"symbol": "TKOUSDT",
+		"lastPrice": "0.44400000",
+		"quoteVolume": "2494868.73649000"
+	},
+	{
+		"symbol": "TLMUSDT",
+		"lastPrice": "0.01623000",
+		"quoteVolume": "2158408.11841000"
+	},
+	{
+		"symbol": "TNSRUSDT",
+		"lastPrice": "0.88520000",
+		"quoteVolume": "40145329.25635000"
+	},
+	{
+		"symbol": "TRBUSDT",
+		"lastPrice": "55.22000000",
+		"quoteVolume": "8408867.85970000"
+	},
+	{
+		"symbol": "TROYUSDT",
+		"lastPrice": "0.00258800",
+		"quoteVolume": "1412702.83766600"
+	},
+	{
+		"symbol": "TRUUSDT",
+		"lastPrice": "0.11883000",
+		"quoteVolume": "8771946.01931000"
+	},
+	{
+		"symbol": "TRXUSDT",
+		"lastPrice": "0.10931000",
+		"quoteVolume": "40708621.49708200"
+	},
+	{
+		"symbol": "TUSDT",
+		"lastPrice": "0.03647000",
+		"quoteVolume": "9983746.44266200"
+	},
+	{
+		"symbol": "TUSDUSDT",
+		"lastPrice": "1.00000000",
+		"quoteVolume": "3809655.68780000"
+	},
+	{
+		"symbol": "TWTUSDT",
+		"lastPrice": "1.10610000",
+		"quoteVolume": "2602216.50000000"
+	},
+	{
+		"symbol": "UFTUSDT",
+		"lastPrice": "0.42230000",
+		"quoteVolume": "2538737.51730000"
+	},
+	{
+		"symbol": "UMAUSDT",
+		"lastPrice": "2.67600000",
+		"quoteVolume": "1057681.09970000"
+	},
+	{
+		"symbol": "UNFIUSDT",
+		"lastPrice": "3.73900000",
+		"quoteVolume": "3672412.79520000"
+	},
+	{
+		"symbol": "UNIUSDT",
+		"lastPrice": "7.50800000",
+		"quoteVolume": "18545738.94704000"
+	},
+	{
+		"symbol": "USDCUSDT",
+		"lastPrice": "0.99960000",
+		"quoteVolume": "794625240.02390000"
+	},
+	{
+		"symbol": "USDPUSDT",
+		"lastPrice": "1.00190000",
+		"quoteVolume": "120371.10980000"
+	},
+	{
+		"symbol": "USTCUSDT",
+		"lastPrice": "0.01761023",
+		"quoteVolume": "2366374.70325432"
+	},
+	{
+		"symbol": "UTKUSDT",
+		"lastPrice": "0.09890000",
+		"quoteVolume": "1920753.31150000"
+	},
+	{
+		"symbol": "VANRYUSDT",
+		"lastPrice": "0.15643000",
+		"quoteVolume": "4968642.30746000"
+	},
+	{
+		"symbol": "VETUSDT",
+		"lastPrice": "0.04068000",
+		"quoteVolume": "14020663.35085200"
+	},
+	{
+		"symbol": "VGXUSDT",
+		"lastPrice": "0.08020000",
+		"quoteVolume": "1485981.85258000"
+	},
+	{
+		"symbol": "VIBUSDT",
+		"lastPrice": "0.11387000",
+		"quoteVolume": "2854762.88265000"
+	},
+	{
+		"symbol": "VICUSDT",
+		"lastPrice": "0.76020000",
+		"quoteVolume": "1964935.68856300"
+	},
+	{
+		"symbol": "VIDTUSDT",
+		"lastPrice": "0.03735000",
+		"quoteVolume": "2160820.64585000"
+	},
+	{
+		"symbol": "VITEUSDT",
+		"lastPrice": "0.02393000",
+		"quoteVolume": "3198196.54605800"
+	},
+	{
+		"symbol": "VOXELUSDT",
+		"lastPrice": "0.24150000",
+		"quoteVolume": "2142981.97513000"
+	},
+	{
+		"symbol": "VTHOUSDT",
+		"lastPrice": "0.00362000",
+		"quoteVolume": "1939800.02672800"
+	},
+	{
+		"symbol": "WANUSDT",
+		"lastPrice": "0.28170000",
+		"quoteVolume": "1485275.51100000"
+	},
+	{
+		"symbol": "WAVESUSDT",
+		"lastPrice": "2.50800000",
+		"quoteVolume": "4524299.77607000"
+	},
+	{
+		"symbol": "WAXPUSDT",
+		"lastPrice": "0.06739000",
+		"quoteVolume": "1846999.70723000"
+	},
+	{
+		"symbol": "WBETHUSDT",
+		"lastPrice": "3151.62000000",
+		"quoteVolume": "2173206.99802500"
+	},
+	{
+		"symbol": "WBTCUSDT",
+		"lastPrice": "63732.20000000",
+		"quoteVolume": "3996158.54720460"
+	},
+	{
+		"symbol": "WIFUSDT",
+		"lastPrice": "2.74700000",
+		"quoteVolume": "217693308.73339700"
+	},
+	{
+		"symbol": "WINGUSDT",
+		"lastPrice": "6.43000000",
+		"quoteVolume": "1840951.94500000"
+	},
+	{
+		"symbol": "WINUSDT",
+		"lastPrice": "0.00012210",
+		"quoteVolume": "1087500.33213180"
+	},
+	{
+		"symbol": "WLDUSDT",
+		"lastPrice": "5.01000000",
+		"quoteVolume": "87507654.98100000"
+	},
+	{
+		"symbol": "WNXMUSDT",
+		"lastPrice": "62.95000000",
+		"quoteVolume": "2050317.55970000"
+	},
+	{
+		"symbol": "WOOUSDT",
+		"lastPrice": "0.29480000",
+		"quoteVolume": "2462612.80737000"
+	},
+	{
+		"symbol": "WRXUSDT",
+		"lastPrice": "0.22940000",
+		"quoteVolume": "2113778.59298000"
+	},
+	{
+		"symbol": "WUSDT",
+		"lastPrice": "0.58700000",
+		"quoteVolume": "33367677.14770000"
+	},
+	{
+		"symbol": "XAIUSDT",
+		"lastPrice": "0.70990000",
+		"quoteVolume": "7418822.78894000"
+	},
+	{
+		"symbol": "XECUSDT",
+		"lastPrice": "0.00005114",
+		"quoteVolume": "3525570.61355939"
+	},
+	{
+		"symbol": "XEMUSDT",
+		"lastPrice": "0.03743000",
+		"quoteVolume": "1042614.72028000"
+	},
+	{
+		"symbol": "XLMUSDT",
+		"lastPrice": "0.11320000",
+		"quoteVolume": "5651245.17620000"
+	},
+	{
+		"symbol": "XNOUSDT",
+		"lastPrice": "1.09800000",
+		"quoteVolume": "2538500.37629000"
+	},
+	{
+		"symbol": "XRPUSDT",
+		"lastPrice": "0.52040000",
+		"quoteVolume": "209400829.94540000"
+	},
+	{
+		"symbol": "XTZUSDT",
+		"lastPrice": "0.99700000",
+		"quoteVolume": "4364817.05540000"
+	},
+	{
+		"symbol": "XVGUSDT",
+		"lastPrice": "0.00574700",
+		"quoteVolume": "4846323.02184800"
+	},
+	{
+		"symbol": "XVSUSDT",
+		"lastPrice": "10.22000000",
+		"quoteVolume": "1908985.01390000"
+	},
+	{
+		"symbol": "YFIUSDT",
+		"lastPrice": "6923.00000000",
+		"quoteVolume": "2073896.48129000"
+	},
+	{
+		"symbol": "YGGUSDT",
+		"lastPrice": "0.87030000",
+		"quoteVolume": "17702912.41638000"
+	},
+	{
+		"symbol": "ZECUSDT",
+		"lastPrice": "22.49000000",
+		"quoteVolume": "2413132.35834000"
+	},
+	{
+		"symbol": "ZENUSDT",
+		"lastPrice": "8.72000000",
+		"quoteVolume": "1872869.79040000"
+	},
+	{
+		"symbol": "ZILUSDT",
+		"lastPrice": "0.02495000",
+		"quoteVolume": "4145287.58419700"
+	},
+	{
+		"symbol": "ZRXUSDT",
+		"lastPrice": "0.53220000",
+		"quoteVolume": "4615186.71430000"
+	}
+]

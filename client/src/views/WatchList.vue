@@ -1,8 +1,48 @@
 <script setup>
+import { ref } from 'vue';
+import { storeToRefs } from "pinia";
+import { useTickerStore } from '@/stores/ticker.js';
+const { tickers, favorit } = storeToRefs(useTickerStore());
 </script>
 
 <template>
-	<div>Watch List</div>
+	<div class="container h-full">
+		<article v-for="ticker in tickers" :key="ticker.symbol" class="flex mb-1 border border-green-700 rounded-2xl">
+			<div class="flex items-center">
+				<input type="checkbox" name="ticker.symbol" :value="ticker" v-model="favorit"
+					class="bg-gray-600 text-green-400 rounded-l h-8 mr-2 ml-2 border-2 border-green-600 w-3">
+			</div>
+			<!--RouterLink :to="{ name: 'Chart', params: { id: ticker.symbol } }"
+					class="container flex justify-between hover:bg-gray-700">
+				<div class="flex items-center"-->
+			<div class="container flex justify-between hover:bg-gray-700">
+				<div class="flex items-center">
+					<figure class="">
+						<img src="/pwa-64x64.png" class="h-10 w-10 ml-2 mr-2 rounded-full">
+					</figure>
+					<div class="">
+						<p class="text-md">
+							<strong>
+								<span>{{ ticker.symbol }}</span>
+							</strong>
+							<br>
+							<small>Symbol name</small>
+						</p>
+					</div>
+				</div>
+				<div class="mr-3">
+					<p class="text-md text-right">
+						<strong>
+							<span>{{ ticker.lastPrice * 1 }}</span>
+						</strong>
+						<br>
+						<small>{{ ticker.quoteVolume }}</small>
+					</p>
+				</div>
+			</div>
+			<!--/RouterLink-->
+		</article>
+	</div>
 </template>
 
 <style scoped></style>

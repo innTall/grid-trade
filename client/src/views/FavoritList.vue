@@ -2,7 +2,7 @@
 </script>
 
 <template>
-	<div class="">Favorit List</div>
+	<div>Favorit List</div>
 </template>
 
 <style scoped></style>

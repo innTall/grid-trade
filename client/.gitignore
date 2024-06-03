@@ -13,6 +13,7 @@ dist-ssr
 dev-dist
 *.local
 draft
+data
 
 # Editor directories and files
 .vscode/*

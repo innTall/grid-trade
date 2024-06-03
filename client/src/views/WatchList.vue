@@ -2,7 +2,7 @@
 </script>
 
 <template>
-	<div class="">Watch List</div>
+	<div>Watch List</div>
 </template>
 
 <style scoped></style>

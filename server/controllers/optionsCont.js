@@ -31,7 +31,7 @@ const updateOptions = async (req, res) => {
 
 const deleteOptions = async (req, res) => {
   try {
-    const options = await Options.deleteMany(req.params.id);
+    const options = await Options.deleteMany();
     res.status(200).json(options);
   } catch (error) {
     res.status(500).json(error.message);

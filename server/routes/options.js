@@ -10,5 +10,5 @@ const router = express.Router();
 router.get("/", getOptions);
 router.post("/", createOptions);
 router.put("/", updateOptions);
-router.delete("/", deleteOptions);
+router.delete("/all", deleteOptions);
 export default router;

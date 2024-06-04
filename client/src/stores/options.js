@@ -24,7 +24,7 @@ export const useOptionsStore = defineStore(
     }
 
     async function postOptions() {
-      const uri = "http://localhost:3000/options/add";
+      const uri = "http://localhost:3000/options";
       const Options = {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -55,7 +55,7 @@ export const useOptionsStore = defineStore(
     }
 
     async function updateOptions() {
-      let uri = "http://localhost:3000/api/update";
+      let uri = "http://localhost:3000/options";
       try {
         const response = await fetch(uri);
         const data = await response.json();

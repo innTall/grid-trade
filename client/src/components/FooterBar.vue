@@ -5,10 +5,10 @@ const footerItems = ['about', 'settings', 'info'];
 </script>
 
 <template>
-	<footer class="sticky bottom-0 z-10">
+	<footer class="fixed w-full left-0 bottom-0 z-10 bg-gray-900">
 		<ul class="flex justify-around p-2 border-t border-green-600">
-			<li v-for="page in footerItems" :key="page" class="flex-1">
-				<a :href="`#${page}`" class="flex flex-col text-xs capitalize items-center">
+			<li v-for="page in footerItems" :key="page" class="flex">
+				<a :href="`#${page}`" class="flex flex-col text-xs items-center">
 					<QuestionMarkCircleIcon v-if="page === 'about'" class="h-6 w-6" />
 					<WrenchScrewdriverIcon v-else-if="page === 'settings'" class="h-6 w-6" />
 					<CurrencyDollarIcon v-else class="h-6 w-6" /> {{ page }}

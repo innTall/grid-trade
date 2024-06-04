@@ -5,7 +5,7 @@ const headerItems = ['watchlist', 'chart', 'table', 'trade'];
 </script>
 
 <template>
-	<header class="sticky top-0 p-2 z-20 flex justify-between items-center border-b border-green-600">
+	<header class="sticky top-0 p-2 z-20 flex justify-between items-center border-b border-green-600 bg-gray-900">
 		<LogoItem />
 		<ul class="flex items-center gap-5">
 			<li v-for="page in headerItems" :key="page" class="flex-1">

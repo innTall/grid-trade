@@ -1,17 +1,14 @@
 <script setup>
 import HeaderBar from './components/HeaderBar.vue';
+import FooterBar from './components/FooterBar.vue';
 </script>
 
 <template>
-  <header>
-    <HeaderBar />
-  </header>
+  <HeaderBar />
   <main>
     <RouterView />
   </main>
-  <footer>
-    
-  </footer>
+  <FooterBar />
 </template>
 
 <style scoped></style>

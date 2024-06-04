@@ -22,7 +22,7 @@ export const useTickerStore = defineStore(
     onMounted(() => {
       getTickers();
     });
-
+    
     return {
       tickers,
       favorit,

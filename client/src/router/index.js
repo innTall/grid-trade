@@ -13,6 +13,11 @@ const router = createRouter({
       name: "Watch",
       component: () => import("../views/WatchList.vue"),
     },
+    {
+      path: "/chart",
+      name: "Chart",
+      component: () => import("../views/ChartPage.vue"),
+    },
   ],
 });
 export default router;

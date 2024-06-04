@@ -9,7 +9,7 @@ const router = createRouter({
       component: FavoritList,
     },
     {
-      path: "/watch",
+      path: "/watchlist",
       name: "Watch",
       component: () => import("../views/WatchList.vue"),
     },
@@ -17,6 +17,11 @@ const router = createRouter({
       path: "/chart",
       name: "Chart",
       component: () => import("../views/ChartPage.vue"),
+    },
+    {
+      path: "/table",
+      name: "Table",
+      component: () => import("../views/TablePage.vue"),
     },
     {
       path: "/trade",

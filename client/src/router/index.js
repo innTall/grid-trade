@@ -18,6 +18,11 @@ const router = createRouter({
       name: "Chart",
       component: () => import("../views/ChartPage.vue"),
     },
+    {
+      path: "/trade",
+      name: "Trade",
+      component: () => import("../views/TradePage.vue"),
+    },
   ],
 });
 export default router;

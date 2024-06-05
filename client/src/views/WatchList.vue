@@ -1,15 +1,14 @@
 <script setup>
-import { ref } from 'vue';
 import { storeToRefs } from "pinia";
 import { useTickerStore } from '@/stores/ticker.js';
-const { tickers, favorit } = storeToRefs(useTickerStore());
+const { tickers, favorits } = storeToRefs(useTickerStore());
 </script>
 
 <template>
 	<div class="container h-full">
 		<article v-for="ticker in tickers" :key="ticker.symbol" class="flex mb-1 border border-green-700 rounded-2xl">
 			<div class="flex items-center">
-				<input type="checkbox" name="ticker.symbol" :value="ticker" v-model="favorit"
+				<input type="checkbox" name="ticker.symbol" :value="ticker" v-model="favorits"
 					class="bg-gray-600 text-green-400 rounded-l h-8 mr-2 ml-2 border-2 border-green-600 w-3">
 			</div>
 			<!--RouterLink :to="{ name: 'Chart', params: { id: ticker.symbol } }"

@@ -5,6 +5,9 @@ import * as am5stock from "@amcharts/amcharts5/stock";
 import am5dark from '@amcharts/amcharts5/themes/Dark';
 import am5animated from '@amcharts/amcharts5/themes/Animated';
 import { shallowRef, onMounted } from 'vue';
+import { useRouter, useRoute } from "vue-router";
+const router = useRouter();
+const route = useRoute();
 
 let root;
 const chartdiv = shallowRef(null);
@@ -166,17 +169,36 @@ onMounted(() => {
 	// ==================
 	// DEFINE SOURCE DATA
 	// ==================
+	const uri = `https://api.binance.com/api/v3/klines?interval=1d&symbol=${route.params.id}`
 	let data;
-	am5.net.load('../../draft/klines1d.json').then((result) => {
-		data = am5.JSONParser.parse(result.response);
-		dateAxis.data.setAll(data);
-		//series.data.setAll(data);
-		valueSeries.data.setAll(data),
+	am5.net.load(uri)
+		.then((result) => {
+			data = am5.JSONParser.parse(result.response);
+			const candles = data.map((candles) => ({
+				date: candles[0],
+				open: candles[1],
+				high: candles[2],
+				low: candles[3],
+				close: candles[4],
+				volume: candles[5]
+			}));
+			//console.log(candles);
+			data = candles.map((a) => {
+				a.open = +a.open;
+				a.high = +a.high;
+				a.low = +a.low;
+				a.close = +a.close;
+				a.volume = +a.volume;
+				return a;
+			});
+			dateAxis.data.setAll(data);
+			//series.data.setAll(data);
+			valueSeries.data.setAll(data),
 			volumeSeries.data.setAll(data),
 			valueLegend.data.setAll([valueSeries]);
-	}).catch((result) => {
-		console.log("Error loading " + result.xhr.responseURL);
-	});
+		}).catch((result) => {
+			console.log("Error loading " + result.xhr.responseURL);
+		});
 	// ==========
 	// ADD LEGEND
 	// ==========

@@ -3,8 +3,8 @@
 </script>
 
 <template>
-	<div class="h-max">
-		
+	<div class="">
+		Opened grids:
 	</div>
 </template>
 

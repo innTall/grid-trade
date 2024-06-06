@@ -283,8 +283,13 @@ onMounted(() => {
 </script>
 <template>
 	<div class="">
-		<div ref="chartdiv" class="h-72"></div>
+		<div ref="chartdiv" id="chart" class=""></div>
 	</div>
 </template>
 
-<style scoped></style>
+<style scoped>
+#chart {
+	width: 100%;
+	height: 83vh;
+}
+</style>

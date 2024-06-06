@@ -14,7 +14,7 @@ const router = createRouter({
       component: () => import("../views/WatchList.vue"),
     },
     {
-      path: "/chart",
+      path: "/chart/:symbol",
       name: "Chart",
       component: () => import("../views/ChartPage.vue"),
     },

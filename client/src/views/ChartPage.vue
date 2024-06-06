@@ -169,7 +169,7 @@ onMounted(() => {
 	// ==================
 	// DEFINE SOURCE DATA
 	// ==================
-	const uri = `https://api.binance.com/api/v3/klines?interval=1d&symbol=${route.params.id}`
+	const uri = `https://api.binance.com/api/v3/klines?interval=1d&symbol=${route.params.symbol}`
 	let data;
 	am5.net.load(uri)
 		.then((result) => {

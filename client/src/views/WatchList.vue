@@ -10,7 +10,7 @@ const { tickers, favorits } = storeToRefs(useTickerStore());
 			<div class="flex items-center">
 				<input type="checkbox" name="ticker.symbol" :value="ticker" v-model="favorits" class="ml-2">
 			</div>
-			<RouterLink :to="{ name: 'Chart', state: { id: ticker.symbol } }"
+			<RouterLink :to="'/chart/' + ticker.symbol"
 				class="container flex justify-between hover:bg-gray-700">
 				<!--div class="flex items-center"-->
 				<div class="container flex justify-between hover:bg-gray-700">

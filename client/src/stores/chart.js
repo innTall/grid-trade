@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import { ref, onMounted } from "vue";
+import { ref, reactive, onMounted } from "vue";
 import { useRouter, useRoute } from "vue-router";
 export const useChartStore = defineStore(
   "chart",
@@ -11,7 +11,7 @@ export const useChartStore = defineStore(
     async function getKlinesData() {
       const uri = `https://api.binance.com/api/v3/klines?interval=1d&symbol=${route.params.id}`;
       try {
-        const response = await fetch(uri); //{mode: 'no-cors'}
+        const response = await fetch(uri ); //{mode: 'no-cors'}
         const result = await response.json();
         const candleStick = result.map((candles) => ({
           date: candles[0],

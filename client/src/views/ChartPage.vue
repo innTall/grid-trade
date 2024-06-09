@@ -5,7 +5,10 @@ import * as am5stock from "@amcharts/amcharts5/stock";
 import am5dark from '@amcharts/amcharts5/themes/Dark';
 import am5animated from '@amcharts/amcharts5/themes/Animated';
 import { shallowRef, onMounted } from 'vue';
+import { storeToRefs } from "pinia";
 import { useRouter, useRoute } from "vue-router";
+import { useChartStore } from '@/stores/chart.js';
+const { data } = storeToRefs(useChartStore());
 const router = useRouter();
 const route = useRoute();
 
@@ -108,7 +111,7 @@ onMounted(() => {
 	// =====================
 	let valueSeries = mainPanel.series.push(
 		am5xy.CandlestickSeries.new(root, { //LineSeries.new()
-			name: "BNBBUSD, 1D",
+			name: `${route.params.symbol}, 1D`,
 			xAxis: dateAxis,
 			yAxis: valueAxis,
 			openValueYField: "open",
@@ -166,39 +169,6 @@ onMounted(() => {
 	//})
 	// Set main volume series
 	stockChart.set("volumeSeries", volumeSeries);
-	// ==================
-	// DEFINE SOURCE DATA
-	// ==================
-	const uri = `https://api.binance.com/api/v3/klines?interval=1d&symbol=${route.params.symbol}`
-	let data;
-	am5.net.load(uri)
-		.then((result) => {
-			data = am5.JSONParser.parse(result.response);
-			const candles = data.map((candles) => ({
-				date: candles[0],
-				open: candles[1],
-				high: candles[2],
-				low: candles[3],
-				close: candles[4],
-				volume: candles[5]
-			}));
-			//console.log(candles);
-			data = candles.map((a) => {
-				a.open = +a.open;
-				a.high = +a.high;
-				a.low = +a.low;
-				a.close = +a.close;
-				a.volume = +a.volume;
-				return a;
-			});
-			dateAxis.data.setAll(data);
-			//series.data.setAll(data);
-			valueSeries.data.setAll(data),
-			volumeSeries.data.setAll(data),
-			valueLegend.data.setAll([valueSeries]);
-		}).catch((result) => {
-			console.log("Error loading " + result.xhr.responseURL);
-		});
 	// ==========
 	// ADD LEGEND
 	// ==========
@@ -213,6 +183,21 @@ onMounted(() => {
 		width: 8,
 		height: 8
 	});
+	// ==================
+	// DEFINE SOURCE DATA
+	// ==================
+	let data;
+	am5.net.load('../draft/klines1d.json').then((result) => {
+		data = am5.JSONParser.parse(result.response);
+			dateAxis.data.setAll(data);
+			//series.data.setAll(data);
+			valueSeries.data.setAll(data),
+			volumeSeries.data.setAll(data),
+			valueLegend.data.setAll([valueSeries]);
+		}).catch((result) => {
+			console.log("Error loading " + result.xhr.responseURL);
+		});
+	
 	// ============
 	// ADD TOOLTIPS
 	// ============
@@ -268,9 +253,36 @@ onMounted(() => {
 		stockChart: stockChart
 	})
 	valueSeries.events.on("datavalidated", () => {
-		periodSelector.selectPeriod({ timeUnit: "month", count: 3 })
-	})
-
+		periodSelector.selectPeriod({ timeUnit: "month", count: 5 })
+	});
+	
+	// =============
+	// STOCK TOOLBAR
+	// =============
+	const toolbar = am5stock.StockToolbar.new(root, {
+		container: document.getElementById("chartcontrols"),
+		stockChart: stockChart,
+		controls: [
+			am5stock.IndicatorControl.new(root, {
+				stockChart: stockChart,
+				legend: valueLegend
+			}),
+			//am5stock.DateRangeSelector.new(root, {
+			//	stockChart: stockChart
+			//}),
+			//periodSelector,
+			am5stock.DrawingControl.new(root, {
+				stockChart: stockChart
+			}),
+			//am5stock.ResetControl.new(root, {
+			//	stockChart: stockChart
+			//}),
+			am5stock.SettingsControl.new(root, {
+				stockChart: stockChart
+			})
+		]
+	});
+	
 	// ============================
 	// SECONDARY -INDICATORS- PANEL
 	// ============================
@@ -292,12 +304,12 @@ onMounted(() => {
 		am5stock.RelativeStrengthIndex.new(root, {
 			stockChart: stockChart,
 			stockSeries: valueSeries,
-			paddingTop: 0,
-			height: am5.percent(60),
-			y: am5.percent(10),
-			centerY: am5.percent(10),
-			shortName: "RSI",
-			legendLabelText: "{shortName}"
+			//paddingTop: 0,
+			//height: am5.percent(40),
+			//y: am5.percent(40),
+			//centerY: am5.percent(10),
+			//shortName: "RSI",
+			//legendLabelText: "{shortName}"
 		}),
 	);
 	rsiInd.set("rsiInd", rsiInd);
@@ -305,6 +317,7 @@ onMounted(() => {
 </script>
 <template>
 	<div class="">
+		<div id="chartcontrols"></div>
 		<div ref="chartdiv" id="chart" class=""></div>
 	</div>
 </template>

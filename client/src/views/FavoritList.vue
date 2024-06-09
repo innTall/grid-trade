@@ -8,10 +8,10 @@ const { favorits } = storeToRefs(useTickerStore());
 	<div class="container h-full">
 		<article v-for="ticker in favorits" :key="ticker.symbol" class="flex mb-1 border border-green-700 rounded-2xl">
 			<div class="flex items-center">
-				<input type="checkbox" name="ticker.symbol" :value="ticker" v-model="favorits" class="ml-2">
+				<input type="checkbox" name="ticker.symbol" :value="ticker" v-model="favorits"
+					class="form-check-input appearance-none h-6 w-4 border-2 hover:bg-gray-600 border-gray-600 rounded-lg bg-gray-900 checked:bg-green-600 checked:border-2 checked:border-green-600 focus:outline-none align-top ml-2">
 			</div>
-			<RouterLink :to="'/chart/' + ticker.symbol"
-				class="container flex justify-between hover:bg-gray-700">
+			<RouterLink :to="'/chart/' + ticker.symbol" class="container flex justify-between hover:bg-gray-700">
 				<!--div class="flex items-center"-->
 				<div class="container flex justify-between hover:bg-gray-700">
 					<div class="flex items-center">

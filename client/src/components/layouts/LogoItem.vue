@@ -3,12 +3,17 @@
 
 <template>
 	<div class="flex gap-2">
-		<a href="/">
+		<RouterLink :to="{ name: 'Favorit' }">
 			<img src="/pwa-64x64.png" alt="Logo" class="h-10 w-10" />
-		</a>
-		<div class="text-green-600">
-			<div class="text-sm font-bold">TradeApp</div>
-			<div class="text-xs">Trade is easy!</div>
+		</RouterLink>
+		<div class="text-white">
+			<p class="text-sm text-right">
+				<strong>
+					<span>GridTrade</span>
+				</strong>
+				<br>
+				<small>Trade is easy!</small>
+			</p>
 		</div>
 	</div>
 </template>

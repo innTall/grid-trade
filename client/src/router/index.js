@@ -28,6 +28,10 @@ const router = createRouter({
       name: "Trade",
       component: () => import("../views/TradePage.vue"),
     },
+    {
+      path: "/:catchAll(.*)",
+      component: () => import("../views/NotFound.vue"),
+    },
   ],
 });
 export default router;

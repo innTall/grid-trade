@@ -31,7 +31,7 @@ const updateFavorit = async (req, res) => {
 const deleteItem = async (req, res) => {
   try {
 		const favorit = await Favorit.findByIdAndDelete(req.params.id);
-		res.status(200).json(favorit);
+		res.status(200).json(`Ticker with ${favorit.symbol} has been deleted..`);
   } catch (err) {
     res.status(500).json({ message: err.message });
   }

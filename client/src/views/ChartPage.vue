@@ -5,10 +5,10 @@ import * as am5stock from "@amcharts/amcharts5/stock";
 import am5dark from '@amcharts/amcharts5/themes/Dark';
 import am5animated from '@amcharts/amcharts5/themes/Animated';
 import { shallowRef, onMounted } from 'vue';
-import { storeToRefs } from "pinia";
+//import { storeToRefs } from "pinia";
 import { useRouter, useRoute } from "vue-router";
-import { useChartStore } from '@/stores/chart.js';
-const { data } = storeToRefs(useChartStore());
+//import { useChartStore } from '@/stores/chart.js';
+//const { data } = storeToRefs(useChartStore());
 const router = useRouter();
 const route = useRoute();
 
@@ -186,9 +186,28 @@ onMounted(() => {
 	// ==================
 	// DEFINE SOURCE DATA
 	// ==================
+	const uri = `https://api.binance.com/api/v3/klines?interval=1d&symbol=${route.params.symbol}`
 	let data;
-	am5.net.load('../draft/klines1d.json').then((result) => {
-		data = am5.JSONParser.parse(result.response);
+	am5.net.load(uri)
+		.then((result) => {
+			data = am5.JSONParser.parse(result.response);
+			const candles = data.map((candles) => ({
+				date: candles[0],
+				open: candles[1],
+				high: candles[2],
+				low: candles[3],
+				close: candles[4],
+				volume: candles[5]
+			}));
+			//console.log(candles);
+			data = candles.map((a) => {
+				a.open = +a.open;
+				a.high = +a.high;
+				a.low = +a.low;
+				a.close = +a.close;
+				a.volume = +a.volume;
+				return a;
+			});
 			dateAxis.data.setAll(data);
 			//series.data.setAll(data);
 			valueSeries.data.setAll(data),
@@ -197,7 +216,7 @@ onMounted(() => {
 		}).catch((result) => {
 			console.log("Error loading " + result.xhr.responseURL);
 		});
-	
+
 	// ============
 	// ADD TOOLTIPS
 	// ============
@@ -255,7 +274,7 @@ onMounted(() => {
 	valueSeries.events.on("datavalidated", () => {
 		periodSelector.selectPeriod({ timeUnit: "month", count: 5 })
 	});
-	
+
 	// =============
 	// STOCK TOOLBAR
 	// =============
@@ -282,7 +301,7 @@ onMounted(() => {
 			})
 		]
 	});
-	
+
 	// ============================
 	// SECONDARY -INDICATORS- PANEL
 	// ============================

@@ -19,7 +19,7 @@ const router = createRouter({
       component: () => import("../views/ChartPage.vue"),
     },
     {
-      path: "/table",
+      path: "/table/:symbol",
       name: "Table",
       component: () => import("../views/TablePage.vue"),
     },

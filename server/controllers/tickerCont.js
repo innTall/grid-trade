@@ -1,11 +1,11 @@
-import data from "../data/ticker24hr.json" assert { type: "json" };
+//import data from "../data/ticker24hr.json" assert { type: "json" };
 const asset = "USDT";
 let watchList;
 const getTicker = async (_req, res) => {
-  //const uri = 'https://api.binance.com/api/v3/ticker/24hr';
+  const uri = 'https://api.binance.com/api/v3/ticker/24hr';
   try {
-    //const response = await fetch(uri);
-    //const data = await response.json();
+    const response = await fetch(uri);
+    const data = await response.json();
 
 		// * filter data to quoteAsset USDT and empty values
 		// *************************************************

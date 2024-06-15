@@ -4,7 +4,7 @@ import { useRouter, useRoute } from "vue-router";
 export const useChartStore = defineStore(
   "chart",
   () => {
-    let data = reactive({});
+    let data = ref({});
     const router = useRouter();
     const route = useRoute();
     

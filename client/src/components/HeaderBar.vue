@@ -15,7 +15,7 @@ import LogoItem from './layouts/LogoItem.vue';
 			<RouterLink to="/chart/:symbol">
 				<ArrowTrendingUpIcon class="h-6 w-6" />Chart
 			</RouterLink>
-			<RouterLink :to="{ name: 'Table' }">
+			<RouterLink to="/table/:symbol">
 				<TableCellsIcon class="h-6 w-6" />Table
 			</RouterLink>
 			<RouterLink :to="{ name: 'Trade' }">

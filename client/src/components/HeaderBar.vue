@@ -9,6 +9,9 @@ import LogoItem from './layouts/LogoItem.vue';
 			<LogoItem />
 		</div>
 		<div class="flex gap-5 text-xs text-gray-300">
+			<RouterLink :to="{ name: 'Favorit' }">
+				<QueueListIcon class="h-6 w-6" />Favorit
+			</RouterLink>
 			<RouterLink :to="{ name: 'Watch' }">
 				<QueueListIcon class="h-6 w-6" />Watch
 			</RouterLink>
